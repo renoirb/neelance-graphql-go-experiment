@@ -1,0 +1,31 @@
+hash: aa20943efd08f164bc3428175b6a2b5c30f3cf31c8763546785a3930b02cf4c7
+updated: 2018-01-29T18:47:05.689607852-05:00
+imports:
+- name: github.com/neelance/graphql-go
+  version: 5d3b13f2e2215f7d53c88b20fd2c37f0a37b5ffd
+  subpackages:
+  - errors
+  - internal/common
+  - internal/exec
+  - internal/exec/packer
+  - internal/exec/resolvable
+  - internal/exec/selected
+  - internal/query
+  - internal/schema
+  - internal/validation
+  - introspection
+  - log
+  - relay
+  - trace
+- name: github.com/opentracing/opentracing-go
+  version: 216894e5277dc6098f93ceca97beb6101610b418
+  subpackages:
+  - ext
+  - log
+- name: golang.org/x/net
+  version: 5ccada7d0a7ba9aeb5d3aca8d3501b4c2a509fec
+  subpackages:
+  - context
+- name: golang.org/x/text
+  version: e19ae1496984b1c655b8044a65c0300a3c878dd3
+testImports: []

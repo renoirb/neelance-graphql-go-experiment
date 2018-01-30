@@ -1,0 +1,23 @@
+scalar Time
+
+schema {
+    query: Query
+    mutation: Mutation
+}
+
+type Person {
+    name: String!
+    id: ID!
+    date: Time
+    days: String!
+}
+
+type Query  {
+    # query { allPeople { name days date } }
+    allPeople(): [Person]!
+}
+
+type Mutation {
+    # mutation { createPerson(name: "Foo Bar") { name date days } }
+    createPerson(name: String!): Person
+}
